@@ -15,6 +15,7 @@ export async function getStaticProps() {
   }
 } 
 
+
 function Profile() {
   const { data, error } = useSWR('/api/user', fetch)
 
@@ -22,6 +23,7 @@ function Profile() {
   if (!data) return <div>loading...</div>
   return <div>hello {data.name}!</div>
 }
+
 
 export default function Home( {allPostsData} ) {
   return (

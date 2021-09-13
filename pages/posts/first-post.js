@@ -25,9 +25,6 @@ export default function FirstPost() {
           <a>Back to Home</a>
         </Link>
       </h2>
-      <h3>
-        YourComponent
-      </h3>
     </>
   )
 }
